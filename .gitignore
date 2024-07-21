@@ -1,1 +1,7 @@
 /venv
+static/
+media/
+.vscode/
+.mypy_cache/
+project/local_settings.py
+*__pycache__/
