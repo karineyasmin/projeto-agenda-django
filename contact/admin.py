@@ -10,6 +10,7 @@ class ContactAdmin(admin.ModelAdmin):
         "first_name",
         "last_name",
         "phone",
+        "show",
     )
 
     ordering = ("id",)
@@ -25,6 +26,7 @@ class ContactAdmin(admin.ModelAdmin):
     list_editable = (
         "first_name",
         "last_name",
+        "show",
     )
 
     list_display_links = (
